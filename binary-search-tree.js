@@ -245,16 +245,4 @@ class Tree {
 	}
 }
 
-const tree = new Tree([1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]);
-
-// console.log(tree.root);
-// tree.insert(1);
-// console.log(tree.root);
-// console.log(tree.find(3));
-// console.log(tree.levelOrder());
-// console.log(tree.inOrder());
-// console.log(tree.preOrder());
-// console.log(tree.postOrder());
-console.log(tree.height(tree.root));
-console.log(tree.depth(tree.root));
-console.log(tree.isBalanced(tree.root));
+module.exports = Tree;
